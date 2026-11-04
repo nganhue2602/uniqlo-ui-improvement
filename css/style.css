@@ -488,3 +488,26 @@ nav a:hover {
   }
 }
 
+/* BUOI 2 - BUOC 7: HOVER & FOCUS */
+
+.card .btn-detail {
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.card .btn-detail:hover {
+  background-color: #795c49;
+  transform: translateY(-2px);
+}
+
+.card .btn-detail:focus-visible {
+  outline: 3px solid #b47a4e;
+  outline-offset: 4px;
+}
+
+nav a:focus-visible {
+  outline: 2px solid #b47a4e;
+  outline-offset: 4px;
+}
+
