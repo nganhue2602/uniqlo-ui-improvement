@@ -5,6 +5,11 @@
 **Bài tập:** Bài tập cá nhân Chương 1 – Phát triển ứng dụng WEB/TMĐT  
 **Website tham khảo:** https://rongrongproject.vn/
 
+> **Ghi chú về việc điều chỉnh đề tài:**  
+> Trong quá trình thực hiện bài tập cá nhân Chương 1, em đã điều chỉnh website tham khảo từ UNIQLO Việt Nam sang Rong Rong Project để tập trung nghiên cứu và cải tiến cách hiển thị thông tin Pre-order trên trang chi tiết sản phẩm.
+>
+> Repository vẫn giữ tên `uniqlo-ui-improvement` để đảm bảo đường dẫn đã nộp trước đó có thể tiếp tục truy cập. Nội dung mã nguồn, tài liệu và giao diện hiện tại được thực hiện theo đề tài Rong Rong Project.
+
 ## 1. Giới thiệu
 
 Dự án thực hiện khảo sát website thương mại điện tử Rong Rong Project và xây dựng phiên bản giao diện cải tiến bằng HTML5 và CSS3.
