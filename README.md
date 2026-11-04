@@ -155,3 +155,55 @@ Chi tiết quá trình sử dụng AI được ghi trong file `AI_USAGE.md`.
 ---
 
 **Lưu ý:** Đây là bài tập học tập độc lập. Các hình SVG được sử dụng là hình minh họa, không phải ảnh sản phẩm chính thức của Rong Rong Project.
+
+---
+
+# Bài tập cá nhân Buổi 2 – HTML5 và CSS3
+
+## 1. Giới thiệu
+
+Bài tập Buổi 2 tiếp tục phát triển giao diện Rong Rong Project từ Buổi 1, tập trung cải thiện danh sách bốn sản phẩm minh họa và thanh điều hướng.
+
+## 2. Các kỹ thuật đã thực hành
+
+- HTML5: Chuẩn hóa cấu trúc và bổ sung class cho thẻ sản phẩm.
+- CSS Selector: Element, class và descendant selector.
+- Box Model: Margin, padding, border, border-radius.
+- Flexbox: Căn chỉnh header và menu điều hướng.
+- CSS Grid: Bố trí bốn sản phẩm theo dạng lưới.
+- Responsive: Điều chỉnh bố cục cho màn hình nhỏ.
+- Hover và Focus-visible: Tạo phản hồi tương tác.
+
+## 3. Các thay đổi đã thực hiện
+
+1. Format lại HTML để mã nguồn dễ đọc.
+2. Bổ sung product-title, product-price và btn-detail.
+3. Điều chỉnh khoảng cách, đường viền và góc bo của thẻ sản phẩm.
+4. Chuyển liên kết xem chi tiết thành nút thao tác.
+5. Căn chỉnh menu bằng Flexbox.
+6. Hoàn thiện danh sách sản phẩm bằng CSS Grid.
+7. Bổ sung hiệu ứng hover và focus-visible.
+8. Điều chỉnh độc lập khoảng cách Grid từ 20px thành 24px.
+
+## 4. Kiểm tra và xử lý lỗi
+
+Trong quá trình cập nhật, một phần CSS gốc bị mất khiến website không hiển thị đúng bố cục.
+
+Sau khi kiểm tra cấu trúc thư mục, đường dẫn CSS và nội dung mã nguồn, các quy tắc CSS gốc được khôi phục.
+
+Kết quả kiểm thử và hình ảnh minh chứng được trình bày trong báo cáo Buổi 2.
+
+## 5. Hỗ trợ từ AI
+
+ChatGPT hỗ trợ phân tích mã nguồn, giải thích HTML5/CSS3, đề xuất các đoạn mã cải tiến và hướng dẫn kiểm tra lỗi.
+
+Người thực hiện kiểm tra kết quả trên trình duyệt và tự điều chỉnh khoảng cách giữa các thẻ sản phẩm.
+
+## 6. Đường dẫn
+
+Repository:
+https://github.com/nganhue2602/uniqlo-ui-improvement
+
+GitHub Pages:
+https://nganhue2602.github.io/uniqlo-ui-improvement/
+
