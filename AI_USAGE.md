@@ -217,3 +217,66 @@ ChatGPT được sử dụng để hỗ trợ phân tích, đề xuất thiết 
 Việc đối chiếu với website thực tế giúp phân biệt giữa chức năng đang tồn tại và đề xuất cải tiến của AI.
 
 Người thực hiện có trách nhiệm kiểm tra kết quả, điều chỉnh mã nguồn và giải thích các thành phần HTML/CSS đã sử dụng.
+
+---
+
+# AI Usage Log – Buổi 2
+
+## 1. Công cụ AI
+
+ChatGPT (OpenAI).
+
+## 2. Mục đích sử dụng
+
+- Rà soát cấu trúc HTML5 từ Buổi 1.
+- Đề xuất CSS Selector và Box Model.
+- Hướng dẫn thực hành Flexbox và CSS Grid.
+- Bổ sung hiệu ứng hover và focus-visible.
+- Hỗ trợ xác định nguyên nhân lỗi CSS.
+- Giải thích mã nguồn và hỗ trợ hoàn thiện báo cáo.
+
+## 3. Các prompt tiêu biểu
+
+### Prompt 1 – Rà soát HTML5
+
+Kiểm tra cấu trúc HTML hiện tại của website Rong Rong Project. Xác định các thẻ HTML5 có ngữ nghĩa và đề xuất cách cải thiện khu vực danh sách bốn sản phẩm mà không viết lại toàn bộ website.
+
+### Prompt 2 – CSS Selector và Box Model
+
+Hướng dẫn sử dụng class selector, descendant selector, margin, padding, border và border-radius để cải thiện thẻ sản phẩm. Giải thích tác dụng từng thuộc tính.
+
+### Prompt 3 – Flexbox và CSS Grid
+
+Hướng dẫn sử dụng Flexbox để căn chỉnh thanh điều hướng và CSS Grid để bố trí danh sách bốn sản phẩm, đồng thời giữ giao diện responsive.
+
+### Prompt 4 – Hover và Focus
+
+Hướng dẫn bổ sung hover, transition và focus-visible cho các liên kết thao tác trong thẻ sản phẩm.
+
+### Prompt 5 – Kiểm tra lỗi CSS
+
+Website hiển thị sai bố cục sau khi cập nhật CSS. Hãy giúp kiểm tra file style.css, xác định các quy tắc bị thiếu và hướng dẫn khôi phục mà không làm mất phần cải tiến.
+
+## 4. Kết quả AI đề xuất
+
+AI đề xuất bổ sung class cho các thành phần sản phẩm, cải thiện Box Model, căn chỉnh menu bằng Flexbox, tổ chức danh sách bằng Grid và bổ sung trạng thái tương tác.
+
+## 5. Kiểm tra và điều chỉnh
+
+Các đề xuất được đối chiếu với mã nguồn và giao diện thực tế.
+
+Trong quá trình cập nhật, website từng mất bố cục do thiếu CSS gốc. Sau khi kiểm tra, các quy tắc được khôi phục.
+
+Người thực hiện tự điều chỉnh thuộc tính gap từ 20px thành 24px để thực hành kiểm soát khoảng cách trong CSS Grid.
+
+## 6. Phần có thể giải thích
+
+- HTML5: header, nav, main, section, article, footer.
+- CSS Selector: Chọn thành phần cần định dạng.
+- Box Model: Margin, padding, border.
+- Flexbox: display, justify-content, align-items, gap.
+- CSS Grid: grid-template-columns, repeat, gap.
+- Hover: Phản hồi khi di chuyển chuột.
+- Focus-visible: Hiển thị trạng thái khi điều hướng bằng bàn phím.
+- Media Queries: Điều chỉnh bố cục theo chiều rộng màn hình.
+
