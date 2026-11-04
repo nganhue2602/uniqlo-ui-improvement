@@ -22,3 +22,76 @@ img {
   display: block;
   width: 100%;
 }
+
+/* ========================================
+   BUOI 2 - CSS SELECTOR & BOX MODEL
+   ======================================== */
+
+/* Thẻ sản phẩm */
+.card {
+  border: 1px solid #e7e2dc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+/* Hình ảnh bên trong thẻ */
+.card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* Tên sản phẩm */
+.product-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 18px 16px 8px;
+  color: #252525;
+}
+
+/* Thông tin giá */
+.product-price {
+  font-size: 14px;
+  color: #795c49;
+  margin: 0 16px 18px;
+  line-height: 1.5;
+}
+
+/* Descendant selector: nút trong thẻ sản phẩm */
+.card .btn-detail {
+  display: inline-block;
+  margin: 0 16px;
+  padding: 11px 18px;
+  background-color: #282623;
+  color: #ffffff;
+  border: 1px solid #282623;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+/* Hiển thị trên màn hình nhỏ */
+@media (max-width: 760px) {
+  .product-title {
+    font-size: 14px;
+    margin: 12px 10px 6px;
+  }
+
+  .product-price {
+    font-size: 12px;
+    margin: 0 10px 12px;
+  }
+
+  .card .btn-detail {
+    margin: 0 10px;
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+}
