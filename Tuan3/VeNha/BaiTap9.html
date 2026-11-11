@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bài 9 – Font Awesome</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 16px; list-style: none; padding: 0; }
+    .services li { padding: 22px; border: 1px solid #c7dadd; border-radius: 12px; background: #f4fafb; }
+    .services i { color: #006b73; font-size: 1.7rem; }
+    .services h2 { font-size: 1.15rem; margin: 12px 0 6px; }
+    .services p { margin: 0; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="index.html">← Trang tổng hợp</a>
+    <h1>Bài 9 – Sử dụng Font Awesome</h1>
+    <ul class="services">
+      <li>
+        <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+        <h2>Giỏ hàng</h2>
+        <p>Xem các sản phẩm đã chọn.</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-truck-fast" aria-hidden="true"></i>
+        <h2>Giao hàng</h2>
+        <p>Theo dõi quá trình vận chuyển.</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-headset" aria-hidden="true"></i>
+        <h2>Hỗ trợ khách hàng</h2>
+        <p>Tìm thông tin hỗ trợ khi mua hàng.</p>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
